@@ -1,0 +1,56 @@
+.alumni-section {
+    background-color: #f2f2f2;
+  }
+  
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.522);
+  }
+  
+  .play-icon {
+    font-size: 24px;
+    color: #51be78;
+  }
+  
+  .content-box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .tabs {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .tab {
+    font-weight: 600;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    color: #3db166;
+    border-bottom: 3px solid #3db166;
+    padding-bottom: 5px;
+  }
+  
+  .logo-bg {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 120px;
+    opacity: 0.07;
+    z-index: 0;
+  }
+  

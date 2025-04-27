@@ -1,0 +1,49 @@
+.link-left:hover {
+    color: #3db166 !important;
+    font-weight: bold !important;
+    border-bottom: 5px solid #3db166;
+  }
+
+.link-left{
+    color: #163269 !important;
+    font-weight: 500 !important;
+}
+nav{
+    font-size: 18px;
+}
+
+.btn{
+    color: #163269 ;
+    border: 1px solid #163269;
+    font-weight: 400;
+}
+
+.form-control{
+    border: 1px solid #163269 !important;
+}
+
+.btn:hover{
+    background-color: #3db166 !important;
+    color: white !important;
+    border: 1px solid #3db166 !important;
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-w{
+        width: 93% !important;
+        margin-left: 4% !important;
+        overflow-x: hidden;
+    }
+    .custom-m{
+        margin-top: 25px !important;
+    }
+    
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+  
